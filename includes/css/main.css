@@ -67,6 +67,7 @@ header p{
 	margin: auto;
 	width: 230px;
 	height: 265px;
+	padding-top: 10px;
 }
   .motto {
 	float: left;
@@ -242,6 +243,12 @@ main {
 	padding-left: 20px;
 	width: 80%;
 	padding-right: 100px;
+}
+
+@media (max-width: 568px) {
+	main {
+	padding: 20px;
+	}
 }
 
 main:after {
