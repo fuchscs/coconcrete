@@ -1,0 +1,17 @@
+# Allow only major SE
+User-agent: Googlebot
+User-agent: Slurp
+User-Agent: msnbot
+User-agent: google
+User-agent: bingbot
+User-agent: bing
+Allow: /
+Disallow: /includes/
+Crawl-delay: 10
+
+# Block all but AdsBot crawlers
+User-agent: *
+Disallow: /
+
+#Sitemaps
+Sitemap: https://coconcrete.at/sitemap.xml

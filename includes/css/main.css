@@ -1,0 +1,159 @@
+/* fuchs.technology main.css */
+
+/* TOC */
+
+/*
+	- Import css
+	- Common style
+	- Header
+	- Navigation
+	- Footer
+*/
+/* Import css*/
+@import url("reset.css");
+
+
+/* Common style */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+	color: #43454b;
+/*	font-family: "Source Sans Pro", sans-serif; */
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.618;
+	text-rendering: optimizeLegibility;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 300px;
+}
+
+.logo {
+	float: left;
+	padding: 10px;
+}
+
+.motto {
+	float: left;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+header p{
+	font-style: italic;
+}
+
+@media (max-width: 568px) {
+  .logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+}
+
+header img {
+
+}
+
+/* Navigation */
+
+nav {
+	float: left;
+	width: 20%;
+	padding-left: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+
+}
+
+main {
+	float: left;
+	padding-left: 20px;
+	width: 80%;
+	padding-right: 100px;
+}
+
+main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media (max-width: 600px) {
+	nav, main {
+	width: 100%;
+	height: auto;
+	}
+}
+
+/* Footer */
+
+footer {
+	padding: 10px;
+	float: left;
+	width: 100%;
+}
+
+footer ul {
+	justify-content: center;
+	display: flex;
+	list-style: none;
+	line-height: 50px;
+}
+
+.instagram {
+	background-color: #f00075;
+	color: #000;
+}
+
+.facebook {
+	background-color: #1977f2;
+    color: #000;
+}
+
+.social-link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    margin-right: 8px;
+    transition: transform .1s ease;
+}
+
+.social-link:hover {
+	transform: scale(1.1);
+}
+
+.social-link a {
+	padding: 6px;
+    display: block;
+    line-height: 0;
+    transition: transform .1s ease;
+}
+
+footer p {
+	text-align: center;
+	line-height: 50px;
+}
