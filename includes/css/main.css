@@ -11,6 +11,7 @@
 */
 /* Import css*/
 @import url("reset.css");
+@import url("../fonts/Montserrat/Montserrat.css");
 
 
 /* Common style */
@@ -30,6 +31,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: #333;
+	transition: 0.3s;
 }
 
 * {
@@ -72,6 +74,7 @@ header p{
   .motto {
 	float: left;
 	padding: 10%;
+	font-family: 'Montserrat', sans-serif;
 }
 }
 
@@ -120,7 +123,12 @@ nav li a {
   display: block;
   padding: 20px 20px;
   /* border-right: 1px solid #f4f4f4; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 nav li a:hover,
@@ -221,6 +229,7 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   nav li a:hover,
   nav .menu-btn:hover {
   background-color: #fff;
+  color: #ccc;
   }
   nav li {
 
