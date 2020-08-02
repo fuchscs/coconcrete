@@ -1,0 +1,29 @@
+{shop_url}
+
+Szia,
+
+Új visszárú kérés érkezett a {shop_name} -ba.
+
+Return Details
+
+Rendelés: {order_name} Leadva {date}
+
+Vásárló: {firstname} {lastname}, ({email})
+
+Cikkszám	Termék	Mennyiség   {items}
+
+Postázási cím
+
+{delivery_block_html}
+
+Számlázási cím
+
+{invoice_block_html}
+
+Vásárlói üzenet:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

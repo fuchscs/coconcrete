@@ -1,0 +1,14 @@
+{shop_url}
+
+Kedves {lastname} {firstname}!
+
+Sponsorship Program
+
+Egy barát ajánlása miatt kiállítottunk egy kupont a nevedre.
+Itt találod a kuponkódod: {voucher_num}, ennek mértéke {voucher_num}
+
+Egyszerűen csak másold ki/illeszd be a következő rendelésed fizetési folyamatánál.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)
