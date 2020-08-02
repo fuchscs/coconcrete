@@ -1,7 +1,7 @@
 /wp/*
 
 # Prestashop ignore from https://github.com/github/gitignore/blob/master/Prestashop.gitignore
-/shop/*
+#/shop/*
 # Cache
 /shop/cache/*
 !/shop/cache/.htaccess
