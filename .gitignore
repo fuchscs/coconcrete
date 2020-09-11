@@ -110,6 +110,7 @@
 /shop/themes/*/config/settings_*.json
 /shop/app/config/parameters.old.yml
 /shop/app/config/config.php
+/shop/.htaccess
 
 # Themes, modules and overrides
 
