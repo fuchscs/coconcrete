@@ -1,3 +1,3 @@
-# coconcrete.at - coconcrete.hu
+# coconcrete.at
 Co.concrete Webshop
 #
